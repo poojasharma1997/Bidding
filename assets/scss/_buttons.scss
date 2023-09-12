@@ -1,0 +1,39 @@
+.btn1{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    color: #fff;
+    width: 183px;
+    height: 54px;
+}
+.btn2{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    border: 2px solid $white;
+    border-radius: 30px;
+    color: $white;
+    width: 200px;
+    height: 54px;
+    &:hover{
+        background-color: $theme2;
+    }
+}
+
+.blueButton{
+    background-color: $theme2;
+    color: $white;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 16px 48px 16px 48px;
+    border-radius: 228px;
+    height: 56px;
+    &:hover {
+        background-color: $theme2 !important;
+    color: $white !important;
+    }
+}
+
+

@@ -1,0 +1,53 @@
+.mainNavbar{
+    & .navbar-brand{
+        & img{
+
+        }
+    }
+    & .middelelink{
+        .underline{
+            position: relative;
+            & ul{
+                & li{
+                    & a {
+                        font-size: 12px;
+                        font-weight: 400;
+                        line-height: 16px;
+                        
+                    }
+                }
+                & .dropdown{
+                    & button{
+                        font-size: 12px;
+                        font-weight: 400;
+                        line-height: 16px;
+                    }
+                }
+            }
+            
+            &::after{
+            content: "";
+            width: 112%;
+            display: block;
+            border-bottom: 1px solid white;
+            }
+        }
+        & .navbar-nav{
+            & .nav-item{
+                & .nav-link{
+                    font-size: 14px;
+                    font-weight: 600;
+                    line-height: 20px;
+                    &.active{
+
+                    }
+                }
+            }
+        }
+        
+    }
+    & .login{
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
